@@ -1,11 +1,11 @@
 # EX-9 APPLICATION USING TCP SOCKETS - CREATING FOR CHAT CLIENT-SERVER
 
 
-# DATE :04.05.2023
-# AIM :
+## DATE :04.05.2023
+## AIM :
 #### To write a python program for creating Chat using TCP Sockets Links.
 
-# ALGORITHM :
+## ALGORITHM :
 
 #### 1.Start the program.
 #### 2.Get the frame size from the user.
@@ -15,10 +15,10 @@
 #### 6.Stop the program
 
 
-# CLIENT PROGRAM :
+## CLIENT PROGRAM :
 ```PY
-## Developed : Kavinraja D
-## Reg no : 212222240047
+## Developed : LATHIKESHWARAN J
+## Reg no : 212222230072
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -44,14 +44,14 @@ while True:
 
 ```
 
-# SERVER OUTPUT :
+## SERVER OUTPUT :
 ![output](./server.png)
 
-# CLIENT OUTPUT : 
+## CLIENT OUTPUT : 
 ![output](./client.png)
 
 
-# RESULT:
+## RESULT:
 #### Thus, the python program for creating Chat using TCP Sockets Links was successfully created and executed.
 
 
